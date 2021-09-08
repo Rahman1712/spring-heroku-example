@@ -12,7 +12,7 @@ public class SpringHerokuExampleApplication {
 
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to Heroku Area";
+		return "Welcome to Heroku Area Teams...";
 	}
 	
 	@GetMapping("/message/{input}")
